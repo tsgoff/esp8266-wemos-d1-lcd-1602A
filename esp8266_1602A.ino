@@ -13,7 +13,7 @@ extern "C" {
 // {"play": "line one:  ", "captain": "line two"}
 
 const char* host     = "foo.bar.tld"; //domain, no slashes
-String path          = "/display.json"; // path to light.json beginning with slash (ex: /display)
+String path          = "/display.json"; // path to json beginning with slash (ex: /display)
 
 LiquidCrystal lcd(D7, D6, D5, D1 , D2, D3);
 
